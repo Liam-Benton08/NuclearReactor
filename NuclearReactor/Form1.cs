@@ -26,7 +26,8 @@ namespace NuclearReactor
             reactorstableLabel.BackColor = Color.White;
             reactorstableLabel.Text = "Reactor Unstable";
             reactorstableLabel.ForeColor = Color.Red;
-            
+            this.BackColor = Color.Black;
+
             Refresh();
             Thread.Sleep(1000);
 
